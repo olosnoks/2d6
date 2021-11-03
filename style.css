@@ -200,11 +200,6 @@ button {
 button:hover {
     cursor: pointer;
 }
-@media (min-width: 900px) {
-    .dice {
-        perspective: 1300px;
-    }
-}
 .colophon {
     font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
     color: beige;
