@@ -15,6 +15,9 @@ body {
     overflow: hidden;
     width: 100%;
 }
+header {
+    margin-top: 25px;
+}
 .content {
     font-size: calc(26px + (64 - 26) * ((100vw - 300px) / (1600 - 300)));
 }
@@ -203,4 +206,13 @@ button:hover {
 .colophon {
     font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
     color: beige;
+}
+.colophon-img {
+    margin: 0 auto;
+    padding: 0 auto;
+    height: auto;
+    width: 35vw;
+}
+.copy-circle {
+    margin-left: -40px;
 }
