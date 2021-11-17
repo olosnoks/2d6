@@ -18,3 +18,7 @@ function getRandomNumber(min, max) {
 }
 
 document.getElementById("roll-button").addEventListener("click", rollDice);
+
+
+
+
